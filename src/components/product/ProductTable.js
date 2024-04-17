@@ -95,14 +95,6 @@ const ProductTable = ({ products, isCheck, setIsCheck, currency, lang }) => {
                 )}
                 <div>
                   <h2 className="text-sm font-medium">
-                    {/* {showingTranslateValue(product?.title, lang)?.substring(
-                      0,
-                      28
-                    )}... */}
-                    {/* {product.title[lang].substring(
-                      0,
-                      15
-                    )}... */}
                   </h2>
                   <h2 className="text-sm font-medium">
                     {product.title[lang] && typeof product.title[lang] === 'string' ?
